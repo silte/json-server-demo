@@ -1,0 +1,8 @@
+POST http://localhost:3001/todo-lists
+content-type: application/json
+        {
+          "id": 1,
+          "title": "tunkkaa appi",
+          "description": "tee todo appi et saat tän todo valmiiks merkattuu joskus :D",
+          "done": false
+        }

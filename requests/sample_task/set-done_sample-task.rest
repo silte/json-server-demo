@@ -1,0 +1,12 @@
+PUT http://localhost:3001/todos/sample-task
+content-type: application/json
+
+{
+  "id": "sample-task",
+  "title": "Sample task",
+  "description": null,
+  "created": "{{ $timestamp +3 h}}000",
+  "edited": "{{ $timestamp +3 h}}000",
+  "done": true,
+  "todo-listId": "default"
+}

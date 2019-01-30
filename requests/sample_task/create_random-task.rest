@@ -1,0 +1,12 @@
+POST http://localhost:3001/todo-lists/default/todos
+content-type: application/json
+
+{
+  "id": "{{$guid}}",
+  "todo-listId": "default",
+  "title": "Random task",
+  "description": "New task with random generated id",
+  "created": "{{ $timestamp +3 h}}000",
+  "edited": "{{ $timestamp +3 h}}000",
+  "done": false
+}

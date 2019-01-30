@@ -1,0 +1,8 @@
+POST http://localhost:3001/todo-lists
+content-type: application/json
+
+{
+  "id": "{{$guid}}",
+  "name": "New todo list with random id",
+  "created": "{{ $timestamp +3 h}}000",
+}

@@ -1,0 +1,12 @@
+POST http://localhost:3001/todo-lists/default/todos
+content-type: application/json
+
+{
+  "id": "sample-task",
+  "title": "Sample task",
+  "description": null,
+  "created": "{{ $timestamp +3 h}}000",
+  "edited": "{{ $timestamp +3 h}}000",
+  "done": false,
+  "todo-listId": "default"
+}
