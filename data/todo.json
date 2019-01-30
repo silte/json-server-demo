@@ -1,0 +1,20 @@
+{
+  "todo-lists": [
+    {
+      "id": "default",
+      "name": "Default todo list",
+      "created": "1548789301500"
+    }
+  ],
+  "todos": [
+    {
+      "id": 1,
+      "todo-listId": "default",
+      "title": "E.g. task",
+      "description": "Example todo tasks on example todo list.",
+      "created": "1548789307000",
+      "edited": "1548789307000",
+      "done": false
+    }
+  ]
+}
